@@ -2,10 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import"./Trending.css"
-import img4 from "../../images/img4.jpg"
-import img5 from "../../images/img5.jpg";
-import img10 from "../../images/img10.jpg";
-import img7 from "../../images/img7.jpg";
+import Card from "../../components/card/Card";
 
 const Trending = () => {
 
@@ -28,8 +25,8 @@ const Trending = () => {
           <h1>Trending</h1>
         </div>
         <div className="trending-card">
-          <div class="card" style={{ backgroundImage: `url(${img5})`  }}>
-            {/* <img src={img4} class="card-img-top" alt="..." /> */}
+          {/* <div class="card" >
+            <img src={img4} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
 
@@ -40,7 +37,7 @@ const Trending = () => {
           </div>
 
           <div class="card" style={{ backgroundImage: `url(${img7})` }}>
-            {/* <img src={img4} class="card-img-top" alt="..." /> */}
+            {/* <img src={img4} class="card-img-top" alt="..." /> 
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
 
@@ -50,7 +47,7 @@ const Trending = () => {
             </div>
           </div>
           <div class="card" style={{ backgroundImage: `url(${img10})` }}>
-            {/* <img src={img4} class="card-img-top" alt="..." /> */}
+            {/* <img src={img4} class="card-img-top" alt="..." /> 
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
 
@@ -60,7 +57,7 @@ const Trending = () => {
             </div>
           </div>
           <div class="card" style={{ backgroundImage: `url(${img10})` }}>
-            {/* <img src={img10} class="card-img-top" alt="..." /> */}
+            {/* <img src={img10} class="card-img-top" alt="..." /> 
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               
@@ -68,8 +65,9 @@ const Trending = () => {
                 Watch
               </a>
             </div>
-          </div>
-        </div>
+  </div>*/}
+  <Card/>
+        </div> 
       </div>
     </div>
   );

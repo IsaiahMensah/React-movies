@@ -6,6 +6,7 @@ import img4 from "../../images/img4.jpg";
 import img5 from "../../images/img5.jpg";
 import img10 from "../../images/img10.jpg";
 import img7 from "../../images/img7.jpg";
+import Card from "../card/Card";
 
 const Movies = () => {
   // fetch(
@@ -25,47 +26,8 @@ const Movies = () => {
           <h1>All Movies</h1>
         </div>
         <div className="movies-card">
-          <div class="card" style={{ backgroundImage: `url(${img5})` }}>
-            {/* <img src={img4} class="card-img-top" alt="..." /> */}
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-
-              <a href="#" class="btn btn-primary">
-                Watch
-              </a>
-            </div>
-          </div>
-
-          <div class="card" style={{ backgroundImage: `url(${img7})` }}>
-            {/* <img src={img4} class="card-img-top" alt="..." /> */}
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-
-              <a href="#" class="btn btn-primary">
-                Watch
-              </a>
-            </div>
-          </div>
-          <div class="card" style={{ backgroundImage: `url(${img10})` }}>
-            {/* <img src={img4} class="card-img-top" alt="..." /> */}
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-
-              <a href="#" class="btn btn-primary">
-                Watch
-              </a>
-            </div>
-          </div>
-          <div class="card" style={{ backgroundImage: `url(${img10})` }}>
-            {/* <img src={img10} class="card-img-top" alt="..." /> */}
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-
-              <a href="#" class="btn btn-primary">
-                Watch
-              </a>
-            </div>
-          </div>
+          <Card/>
+          
         </div>
       </div>
     </div>
